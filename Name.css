@@ -9,7 +9,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 10px;
   background: #343F4F;
 }
 .wrapper{
@@ -17,19 +17,19 @@ body{
 }
 .wrapper .static-txt{
   color: #fff;
-  font-size: 60px;
+  font-size: 10px;
   font-weight: 400;
 }
 .wrapper .dynamic-txts{
   margin-left: 15px;
-  height: 90px;
+  height: 10px;
   line-height: 90px;
   overflow: hidden;
 }
 .dynamic-txts li{
   list-style: none;
   color: #FC6D6D;
-  font-size: 60px;
+  font-size: 10px;
   font-weight: 500;
   position: relative;
   top: 0;
